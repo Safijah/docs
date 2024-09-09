@@ -361,6 +361,7 @@ module.exports = config({
                                     children: [
                                         ['/en/developer-guide/applications/controls/general.md', 'General Information'],
                                         ['/en/developer-guide/applications/controls/addresspicker.md', 'Address Picker'],
+                                        ['/en/developer-guide/applications/controls/addresshinting.md', 'Address Hinting'],
                                         ['/en/developer-guide/applications/controls/annotations.md', 'Annotations'],
                                         ['/en/developer-guide/applications/controls/attachmentsgrid.md', 'Attachments Grid'],
                                         ['/en/developer-guide/applications/controls/codeeditor.md', 'Code Editor'],
@@ -398,7 +399,7 @@ module.exports = config({
                                         ['/en/developer-guide/applications/controls/treeview.md', 'Tree View'],
                                         ['/en/developer-guide/applications/controls/wbs.md', 'WBS - Work Breakdown Structure']
                                     ]
-                                },                                
+                                },
                                 {
                                     title: 'Web Portal',
                                     collapsable: true,
