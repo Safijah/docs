@@ -4,7 +4,7 @@ Author: Safija Hubljar
 
 # Address Hinting
 
-This control will hint companies based on the selected country. When the user selects one of the hinted companies, all other fields will be pre-filled. Additionally, the control allows the user to manually create a company if manual input is enabled.
+This control will hint addresses based on the selected country. When the user selects one of the hinted addresses, all other fields will be pre-filled. 
 
 ![Address Hinting Displayed On Form](/.attachments/applications/Controls/addresshintingcontrol.png)
 
@@ -50,7 +50,7 @@ This control will hint companies based on the selected country. When the user se
       <td>addressId</td>
       <td>Address id from the service.</td>
       <td><code>SingleLine.Text</code></td>
-      <td>2331888</td>
+      <td><code>2331888</code></td>
       <td><code>2331888</code></td>
       <td><code>bound</code></td>
       <td><code>false</code></td>
@@ -240,8 +240,7 @@ This control will hint companies based on the selected country. When the user se
       <td>
       <p><code>geometry($select=type,coordinates),spatialReference,boundaries($select=name,area)</code></p>
        </td>
-      <td><p><code>Sokolovská 352/215, Vysočany, 19000 Praha 9</code></p>
-      <p><code>''</code></p></td>
+      <td>N/A</td>
       <td><code>input</code></td>
       <td><code>false</code></td>
    </tr>
